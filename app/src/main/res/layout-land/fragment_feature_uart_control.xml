@@ -28,8 +28,7 @@
 
 	<!-- The size of text below must be fixed, therefore dp are used instead of sp -->
 
-	<!--<com.betheracer.controller.widget.TrebuchetBoldTextView -->
-	<TextView
+	<com.betheracer.controller.widget.TrebuchetBoldTextView
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_centerVertical="true"
@@ -40,8 +39,7 @@
 		android:textSize="32dp"
 		android:textStyle="bold"/>
 
-	<!--<com.betheracer.controller.TrebuchetTextView -->
-	<TextView
+	<com.betheracer.controller.TrebuchetTextView
 		android:id="@+id/device_name"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
