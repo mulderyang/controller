@@ -29,7 +29,7 @@ import com.betheracer.controller.uart.UARTActivity;
 
 public class SplashscreenActivity extends Activity {
 	/** Splash screen duration time in milliseconds */
-	private static final int DELAY = 1000;
+	private static final int DELAY = 500;
 
 	@Override
 	protected void onCreate(final Bundle savedInstanceState) {
