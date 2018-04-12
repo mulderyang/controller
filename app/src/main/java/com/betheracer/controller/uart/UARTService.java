@@ -220,10 +220,10 @@ public class UARTService extends BleProfileService implements UARTManagerCallbac
 						stopService();
 				}
 			}).start();
-		} else {
+		} else */ {
 			if (Constants.UART.DEVICE_DISCONNECTED.equals(path))
 				stopService();
-		}*/
+		}
 	}
 
 	/**
